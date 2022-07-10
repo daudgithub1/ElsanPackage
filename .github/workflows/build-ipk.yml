@@ -1,9 +1,6 @@
 #=================================================
 # Description: Build OpenWrt using GitHub Actions
 # Lisence: MIT
-# Blog: https://helmiau.com
-# HelmiWrt by helmiau.com
-# Script base by P3TERX
 #=================================================
 
 name: Build IPK
@@ -172,10 +169,8 @@ jobs:
             ${{ env.THEMEPATH }}-*
             ${{ env.APPPATH }}-*
           body: |
-            **AAAALuCI App and Theme IPK for OpenWrt**
+            **App and Theme IPK for OpenWrt**
             THESE PACKAGES IS COOLSNOWWOLF LEDE FIRMWARE BASED !!!!! NOT OFFICIAL OPENWRT BASE !!!!
-            DWYOR (DO WITH YOUR OWN RISK)
-            [Donation here](AAAAAAAAAAAAA) • [Installation Tutorial](aaaaaaaaaa)
 
       - name: Delete Workflow Runs
         if: steps.tag.outputs.status == 'success' && !cancelled()
