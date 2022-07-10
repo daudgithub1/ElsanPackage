@@ -45,15 +45,19 @@ svn co https://github.com/kenzok8/openwrt-packages/trunk/luci-theme-ifit kenzok8
 svn co https://github.com/kenzok8/openwrt-packages/trunk/luci-theme-mcat kenzok8/luci-theme-mcat
 svn co https://github.com/kenzok8/openwrt-packages/trunk/luci-theme-tomato kenzok8/luci-theme-tomato
 
-# Add luci-theme-tano theme
-git clone --depth=1 https://github.com/lynxnexy/lynx
-rm -rf lynx/luci-theme-netgear
+# Add luci-theme-netgear
+# git clone --depth=1 https://github.com/lynxnexy/lynx
+# rm -rf lynx/luci-theme-netgear
+
+#add luci-theme-netgear
+# rm -rf package/lean/luci-theme-netgear/
+git clone --depth=1 https://github.com/i028/luci-theme-netgear
 
 # Add luci-theme-rosy theme
 git clone --depth=1 https://github.com/rosywrt/luci-theme-rosy
 
 # Add luci-theme-neobird theme
-git clone --depth=1 https://github.com/thinktip/luci-theme-neobird
+# git clone --depth=1 https://github.com/thinktip/luci-theme-neobird
 
 # Add luci-app-amlogic
 git clone --depth=1 https://github.com/ophub/luci-app-amlogic
