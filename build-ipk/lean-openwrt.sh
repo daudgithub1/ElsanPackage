@@ -26,7 +26,7 @@ mkdir package/community
 pushd package/community
 
 # Add OpenClash
-git clone --depth=1 -b dev https://github.com/daudgithub1/OpenClash
+git clone --depth=1 -b dev https://github.com/vernesong/OpenClash
 
 # Add Clash
 git clone --depth=1 https://github.com/hubbylei/luci-app-clash
